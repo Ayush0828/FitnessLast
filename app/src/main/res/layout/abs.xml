@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.fitnesslast.Abs"
+    android:weightSum="1"
+    android:orientation="vertical">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Хэвлийн дасгал-амархан"
+        android:id="@+id/button" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Хэвлийн дасгал-дунд"
+        android:id="@+id/button2" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="хэвлийн дасгал-Хүнд"
+        android:id="@+id/button3" />
+
+    <RelativeLayout
+        android:id="@+id/lay1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="42sp">
+        <fragment
+            android:name="com.example.fitnesslast.fragmentabs1"
+            android:id="@+id/fragment1"
+            android:layout_width="fill_parent"
+            android:layout_height="147dp"
+            tools:layout="@layout/fragmentabs1"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/lay2"
+        android:layout_width="match_parent"
+        android:layout_height="336dp"
+        android:layout_marginTop="-336dp">
+        <fragment
+            android:name="com.example.fitnesslast.fragmentabs2"
+            android:id="@+id/fragment2"
+            android:layout_width="fill_parent"
+            android:layout_height="147dp"
+            tools:layout="@layout/fragmentabs2"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/lay3"
+        android:layout_width="match_parent"
+        android:layout_height="336dp"
+        android:layout_marginTop="-336dp">
+        <fragment
+            android:name="com.example.fitnesslast.fragmentabs3"
+            android:id="@+id/fragment3"
+            android:layout_width="fill_parent"
+            android:layout_height="147dp"
+            tools:layout="@layout/fragmentabs3"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true" />
+    </RelativeLayout>
+
+</LinearLayout>

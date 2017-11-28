@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_light">
+
+    <ImageView
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:id="@+id/imageView2"
+        android:background="@drawable/hevlii2"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="248dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="(1/2)  Гараа шулуун байрлалтай тогтох: 2 минут"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal" />
+
+    <ImageView
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:id="@+id/imageView3"
+        android:background="@drawable/hevlii3"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="(2/2) Орос твист: 20 удаа"
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
