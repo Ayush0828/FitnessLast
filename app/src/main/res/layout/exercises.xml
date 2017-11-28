@@ -6,14 +6,14 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Бүх биеийн дасгал"
+        android:text="@+string/Full Body"
         android:onClick="Click"
         android:id="@+id/btnbuh" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Хэвлийн дасгал"
+        android:text="@+string/Abs"
         android:id="@+id/btnhevlii"
         android:onClick="Click2"
         android:layout_gravity="center_horizontal" />
@@ -21,8 +21,8 @@
     <Button
         android:layout_width="384dp"
         android:layout_height="wrap_content"
-        android:text="Хөлийн дасгал"
+        android:text="@+string/Legs"
         android:id="@+id/btnhul"
         android:onClick="Click3"
-        android:layout_gravity="right" />
+        android:layout_gravity="end" />
 </LinearLayout>

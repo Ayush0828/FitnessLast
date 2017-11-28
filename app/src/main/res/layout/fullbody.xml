@@ -14,12 +14,12 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Бүх Бие-амархан"
+        android:text="@+string/Full body easy"
         android:id="@+id/button" />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Бүх бие-дунд"
+        android:text="@+string/Full body Medium"
         android:id="@+id/button2" />
 
 
@@ -27,7 +27,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Бүх бие-Хүнд"
+        android:text="@+string/Full body Hard"
         android:id="@+id/button3" />
 
     <RelativeLayout

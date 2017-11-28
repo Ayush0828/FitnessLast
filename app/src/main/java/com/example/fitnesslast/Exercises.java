@@ -22,13 +22,13 @@ public class Exercises extends Activity {
     }
 
     public void Click(View view) {
-        startActivity(new Intent("com.example.fitnesslast.Fullbody"));
+        startActivity(new Intent(this,Fullbody.class));
     }
     public void Click2(View view) {
-        startActivity(new Intent("com.example.fitnesslast.Abs"));
+        startActivity(new Intent(this,Abs.class));
     }
     public void Click3(View view) {
-        startActivity(new Intent("com.example.fitnesslast.Legs"));
+        startActivity(new Intent(this,Legs.class));
     }
 
 }

@@ -14,18 +14,18 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Хэвлийн дасгал-амархан"
+        android:text="@+string/Abs easy"
         android:id="@+id/button" />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Хэвлийн дасгал-дунд"
+        android:text="@+string/Abs medium"
         android:id="@+id/button2" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="хэвлийн дасгал-Хүнд"
+        android:text="@+string/Abs Hard"
         android:id="@+id/button3" />
 
     <RelativeLayout
