@@ -14,12 +14,12 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@+string/Full body easy"
+        android:text="Full body easy"
         android:id="@+id/button" />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@+string/Full body Medium"
+        android:text="Full body Medium"
         android:id="@+id/button2" />
 
 
@@ -27,7 +27,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@+string/Full body Hard"
+        android:text="Full body Hard"
         android:id="@+id/button3" />
 
     <RelativeLayout

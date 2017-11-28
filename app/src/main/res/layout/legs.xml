@@ -14,19 +14,19 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@+string/Legs easy"
+        android:text="Legs easy"
         android:id="@+id/button" />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@+string/Legs Medium"
+        android:text="Legs Medium"
         android:id="@+id/button2" />
 
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@+string/Legs hard"
+        android:text="Legs hard"
         android:id="@+id/button3" />
 
     <RelativeLayout

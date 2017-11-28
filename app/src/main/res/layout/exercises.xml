@@ -6,14 +6,14 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@+string/Full Body"
+        android:text="Full Body"
         android:onClick="Click"
         android:id="@+id/btnbuh" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@+string/Abs"
+        android:text="Abs"
         android:id="@+id/btnhevlii"
         android:onClick="Click2"
         android:layout_gravity="center_horizontal" />
@@ -21,7 +21,7 @@
     <Button
         android:layout_width="384dp"
         android:layout_height="wrap_content"
-        android:text="@+string/Legs"
+        android:text="Legs"
         android:id="@+id/btnhul"
         android:onClick="Click3"
         android:layout_gravity="end" />
