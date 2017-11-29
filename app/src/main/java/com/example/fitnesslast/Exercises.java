@@ -1,6 +1,7 @@
 package com.example.fitnesslast;
 
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -31,4 +32,10 @@ public class Exercises extends Activity {
         startActivity(new Intent(this,Legs.class));
     }
 
+    public void clickExercise(View view) {
+        /*AlertDialog.Builder uib = new AlertDialog.Builder(this);
+        AlertDialog ui = uib.create();
+        ui.show();*/
+        startActivity(new Intent(this,ExerciseActivity.class));
+    }
 }

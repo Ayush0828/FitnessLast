@@ -16,31 +16,40 @@
             </intent-filter>
         </activity>
         <activity android:name=".Exercises">
-            <intent-filter >
+            <intent-filter>
                 <action android:name="com.example.fitnesslast.Dasgaluud" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".Fullbody">
-            <intent-filter >
+            <intent-filter>
                 <action android:name="com.example.fitnesslast.Buhbiyiin" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
         <activity android:name=".Abs">
-            <intent-filter >
+            <intent-filter>
                 <action android:name="com.example.fitnesslast.Hevliin" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
         <activity android:name=".Legs">
-            <intent-filter >
+            <intent-filter>
                 <action android:name="com.example.fitnesslast.Huliin" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity android:name=".ExerciseActivity">
+            <intent-filter>
+                <action android:name="com.example.fitnesslast.ExerciseActivity" />
 
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
