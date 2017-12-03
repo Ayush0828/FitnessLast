@@ -3,7 +3,7 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <Button
+   <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Full Body"
@@ -33,7 +33,11 @@
         android:text="TEST"
         android:onClick="clickExercise"/>
 
-    <ListView
+   <ListView
+        android:id="@+id/listview"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        >
+    </ListView>
+
 </LinearLayout>

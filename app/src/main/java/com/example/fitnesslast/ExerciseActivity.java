@@ -25,8 +25,14 @@ public class ExerciseActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_exercise);
 
-        //this.handler = new Handler();
-        //this.startLoadingThread();
+        Bundle extras = getIntent().getExtras();
+        if(extras != null){
+            Ex.setDescription(extras.getString("desc"));
+            Ex.setNbseries(extras.getInt("nbS"));
+            Ex.setLengthseries(extras.getInt("lgS"));
+            Ex.setRest(extras.getInt("rTime"));
+        }
+
         thread1.start();
         thread2.start();
         thread3.start();
