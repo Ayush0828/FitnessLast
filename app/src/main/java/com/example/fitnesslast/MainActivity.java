@@ -12,14 +12,29 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        btn1 = (Button) findViewById(R.id.button1);
-        btn2 = (Button) findViewById(R.id.button2);
-        btn3 = (Button) findViewById(R.id.button3);
-        btn4 = (Button) findViewById(R.id.button4);
     }
 
-    public void OnClick(View view) {
+    public void click_exercises(View view) {
         Intent intent = new Intent(this,Exercises.class);
         startActivity(intent);
+    }
+
+    public void click_run (View view) {
+
+    }
+
+    public void click_weather (View view) {
+        Intent intent = new Intent(this, Weather.class);
+        startActivity(intent);
+    }
+
+    public void click_push (View view) {
+        Intent intent = new Intent(this, Pushup.class);
+        startActivity(intent);
+    }
+
+    public void click_exit (View view) {
+        finish();
+        System.exit(0);
     }
 }
