@@ -9,12 +9,14 @@ public class InsideExer extends Exercise {
     private int nbseries;
     private int lengthseries;
     private String machine;
+    private int rest;
 
 
-    public InsideExer(int nb, int lg, String d){
+    public InsideExer(int nb, int lg, String d,int r){
         this.setNbseries(nb);
         this.setLengthseries(lg);
         this.setDescription(d);
+        this.setRest(r);
     }
 
     @Override
@@ -43,5 +45,13 @@ public class InsideExer extends Exercise {
 
     public void setLengthseries(int lengthseries) {
         this.lengthseries = lengthseries;
+    }
+
+    public int getRest() {
+        return rest;
+    }
+
+    public void setRest(int rest) {
+        this.rest = rest;
     }
 }
