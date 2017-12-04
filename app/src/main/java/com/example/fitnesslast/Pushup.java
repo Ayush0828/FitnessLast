@@ -7,6 +7,7 @@ import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 public class Pushup extends AppCompatActivity implements SensorEventListener {
@@ -14,6 +15,7 @@ public class Pushup extends AppCompatActivity implements SensorEventListener {
     private Sensor mProximity;
     private static final int SENSOR_SENSITIVITY = 4;
     private int count;
+    private int push = 0;
     TextView textView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,8 +40,8 @@ public class Pushup extends AppCompatActivity implements SensorEventListener {
     public void onSensorChanged(SensorEvent event) {
         if (event.sensor.getType() == Sensor.TYPE_PROXIMITY) {
             if (event.values[0] >= -SENSOR_SENSITIVITY && event.values[0] <= SENSOR_SENSITIVITY ) {
-                count++;
-                textView.setText(""+count);
+                push++;
+                textView.setText(""+push);
             }
             else {
             }
@@ -49,5 +51,10 @@ public class Pushup extends AppCompatActivity implements SensorEventListener {
     @Override
     public void onAccuracyChanged(Sensor sensor, int accuracy) {
 
+    }
+
+    public void clickRestart(View view) {
+        textView.setText("0");
+        push=0;
     }
 }

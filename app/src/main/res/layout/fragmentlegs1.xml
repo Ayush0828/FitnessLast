@@ -2,36 +2,39 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
->
+    android:background="@color/backgroundcolor">
 
     <ImageView
         android:layout_width="125dp"
         android:layout_height="125dp"
         android:id="@+id/imageView2"
-        android:background="@drawable/hol1"
-        android:layout_gravity="center_horizontal" />
+        android:background="@drawable/legsone"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="11dp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="(1/2) Шилбэний дасгал : 15 удаа"
+        android:text="(1/2) Calf Raises: 15 times"
         android:id="@+id/textView3"
-        android:layout_gravity="center_horizontal" />
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"/>
 
     <ImageView
         android:layout_width="125dp"
         android:layout_height="125dp"
         android:id="@+id/imageView3"
-        android:background="@drawable/hol2"
-        android:layout_gravity="center_horizontal" />
+        android:background="@drawable/legstwo"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="(2/2) Гуя болон шилбэний дасгал: 10 удаа"
+        android:text="(2/2) Curtsy Lunges: 10 times"
         android:id="@+id/textView4"
-        android:layout_gravity="center_horizontal" />
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"/>
 
 </LinearLayout>

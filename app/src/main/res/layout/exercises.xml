@@ -13,6 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Full Body"
+        android:textAlignment="center"
         android:onClick="Click"
         android:id="@+id/btnbuh" />
 
@@ -20,24 +21,19 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Abs"
+        android:textAlignment="center"
         android:id="@+id/btnhevlii"
         android:onClick="Click2"
         android:layout_gravity="center_horizontal" />
 
     <Button
-        android:layout_width="384dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Legs"
+        android:textAlignment="center"
         android:id="@+id/btnhul"
         android:onClick="Click3"
         android:layout_gravity="end" />
-
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="TEST"
-        android:onClick="clickExercise"/>
 
    <ListView
         android:id="@+id/listview"

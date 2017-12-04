@@ -30,8 +30,8 @@ public class Exercises extends Activity {
         btn3 = (Button) findViewById(R.id.btnhul);
 
         listEx = new ArrayList<InsideExer>();
-        this.listEx.add(new InsideExer(2,2,"prout",50000));
-        this.listEx.add(new InsideExer(5,4,"autre",100000));
+        this.listEx.add(new InsideExer(2,2,"Exer1",50000));
+        this.listEx.add(new InsideExer(5,4,"Exer2",100000));
 
         items = new String[this.listEx.size()];
         for(int i= 0;i<listEx.size();i++)
@@ -65,10 +65,5 @@ public class Exercises extends Activity {
         startActivity(new Intent(this,Legs.class));
     }
 
-    public void clickExercise(View view) {
-        /*AlertDialog.Builder uib = new AlertDialog.Builder(this);
-        AlertDialog ui = uib.create();
-        ui.show();*/
-        startActivity(new Intent(this,ExerciseActivity.class));
-    }
+
 }

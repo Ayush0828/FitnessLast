@@ -2,35 +2,40 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_green_light">
+    android:background="@color/backgroundcolor">
+
     <ImageView
         android:layout_width="125dp"
         android:layout_height="125dp"
         android:id="@+id/imageView2"
-        android:background="@drawable/hevliiii"
-        android:layout_gravity="center_horizontal" />
+        android:background="@drawable/absthree"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="(1/2) Орос твист: 30 удаа"
+        android:text="(1/2) Russian Twist: 30 times"
         android:id="@+id/textView"
-        android:layout_gravity="center_horizontal" />
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"/>
 
     <ImageView
         android:layout_width="125dp"
         android:layout_height="125dp"
         android:id="@+id/imageView3"
-        android:background="@drawable/hevlii4"
-        android:layout_gravity="center_horizontal" />
+        android:background="@drawable/absfour"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="(2/2) Үсрээд суух: 40 удаа"
+        android:text="(2/2) Jumping Squats: 40 times"
         android:id="@+id/textView2"
-        android:layout_gravity="center_horizontal" />
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"/>
 
 </LinearLayout>
